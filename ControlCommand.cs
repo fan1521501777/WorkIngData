@@ -8,14 +8,18 @@ namespace Zhumu.RoomControlInterface
 {
     public enum ControlCommand : short
     {
-
         /// <summary>
-        /// 通知响应消息
+        /// 通知响应消息11
+        /// </summary>
+	    txtfff=-11,
+		
+        /// <summary>
+        /// 通知响应消息11
         /// </summary>
         NotifyResponse = 1,
 
         /// <summary>
-        /// 更新GUID成功通知
+        /// 更新GUID成功通知11
         /// </summary>
         UpdateGUIDResponse = 2,
         /// <summary>
